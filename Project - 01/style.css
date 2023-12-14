@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ------------------ herosection ------------------ */
+
+
+/* -------- topber -------- */
+
+.topber {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.name-logo {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.topber .Era {
+    font-weight: 300;
+    color: #7FB240;
+    letter-spacing: 1px;
+}
+
+.topber .btn {
+    background-color: #7FB240;
+    color: white;
+    padding: 0.5rem 0.8rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px grey;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.topber .btn:hover {
+    transform: scale(1.1);
+}
+
+/* -------- hero -------- */
+
+.hero {
+    background-image: url("./images/bg1.jpg");
+    width: 100%;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+/* .hero::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(248, 248, 248, 0.368);
+    display: block;
+    top: 0;
+} */
+
+/* -------- header -------- */
+
+header {
+    display: flex;
+    /* border: 2px solid red; */
+    padding: 1rem 0;
+    gap: 3rem;
+    align-items: center;
+    justify-content: end;
+    padding-right: 8rem;
+
+}
+
+/* -------- nav -------- */
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+nav ul li a::after {
+    position: absolute;
+    content: " ";
+    display: block;
+    width: 0%;
+    height: 4px;
+    background-color: #7FB240;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #7FB240;
+    transition: 0.3s ease;
+
+}
+
+nav ul li a:hover::after {
+    width: 80%;
+    transition: all 0.3s ease-in-out;
+}
+
+.getStarted {
+    background-color: #F6D707;
+    color: rgb(34, 34, 34);
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
+
+/* ----------------- textInfoBox ----------------- */
+
+.infoBox {
+    /* border: 2px solid red; */
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+
+}
+
+/* ---------- textInfoBox ---------- */
+
+.textInfoBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.textInfoBox h3 {
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.textInfoBox h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
+.textInfoBox p {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-style: italic;
+    padding: 2rem 3.5rem;
+}
+
+/* --------- buttonsBox --------- */
+
+.buttonsBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bbtn {
+    font-size: 2rem;
+    padding: 0.7rem 4rem;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background-color: #F6D707;
+    color: rgb(26, 26, 26);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.bbtn:hover {
+    background-color: #0b2f58;
+    transition: 0.3s ease;
+    color: rgb(255, 255, 255);
+}
+
+.discovermore {
+    font-size: 2rem;
+    padding: 0.7rem 4rem;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.discovermore:hover {
+    background-color: #0b2f58;
+    transition: 0.3s ease;
+    border: 2px solid transparent;
+}
