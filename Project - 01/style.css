@@ -4,19 +4,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
     font-size: 62.5%;
+    width: 100%;
     font-family: 'Poppins', sans-serif;
 }
 
+.mainContainer {
+    overflow: hidden;
+}
 
 /* ------------------ herosection ------------------ */
 
 .herosection {
+    width: 100%;
 
-    /* border: 2px solid red; */
 }
 
 /* -------- topber -------- */
@@ -711,10 +716,12 @@ footer {
     position: relative;
     width: 100%;
     /* border: 2px solid red; */
-    bottom: -450px;
-    background-color: #0B2F58;
+    /* bottom: -450px; */
+    background-color: #0b2f58;
     color: white;
     padding: 3rem;
+    /* top: 420px; */
+    margin-top: 423px;
 }
 
 footer .companyInfo {
