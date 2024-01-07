@@ -23,9 +23,15 @@
 }
 
 .aboutustetx .aboutuspara {
+    /* font-size: 2rem;
+    margin-left: 3rem;
+    color: rgb(169, 163, 156); */
+
     font-size: 2rem;
     margin-left: 3rem;
     color: rgb(169, 163, 156);
+    position: relative;
+    z-index: -1;
 }
 
 .aboutustetx .aboutuspara {
