@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Noto+Sans+Linear+A&family=Poppins:wght@100;200;300;400;500;700;800&family=Roboto+Condensed:wght@700&family=Roboto+Slab:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: 72.5%;
+}
+
+/* logo bg - rgb(0,1,0) */
+
+body {
+    background: rgb(28, 28, 28);
+    font-family: 'Poppins', sans-serif;
+    /* width: 100vh;
+    height: 100vh; */
+    overflow-x: hidden;
+}
+
+.htmlfont {
+    font-family: 'Cedarville Cursive', cursive;
+    color: #5f5f5f;
+    /* color: #ffcd19; */
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.htmlfont::selection {
+    background: none;
+    color: #ffcd19;
+    text-shadow: 2px 2px 5px white;
+}
+
+.bodytag {
+    margin-left: 3rem;
+}
+
+/* --------------Homecontaioner-------------------- */
+.homeconatiner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+/* ----------------navactioncontainer---------------- */
+
+
+.navactioncontainer {
+    background: rgb(24, 24, 24);
+    box-shadow: rgba(59, 59, 59, 0.15) 2.4px 2.4px 3.2px;
+    height: 100vh;
+    text-align: center;
+    width: 10%;
+
+}
+
+/* ------------mylogo---------- */
+.mylogo {
+    background: rgb(0, 1, 0);
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.g {
+    font-size: 8rem;
+    text-shadow: 4px 4px 1px #ffcd19;
+    color: #17e8ff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sah {
+    font-size: 3rem;
+    margin-top: 0rem;
+    letter-spacing: 5px;
+    color: #ffcd19;
+}
+
+.webd {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+
+/* ------------navaction----------------- */
+
+.navaction {
+    margin: 1rem 0;
+    font-size: 6rem;
+    /* padding: 1rem; */
+}
+
+.navaction nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navaction nav ul li a:hover {
+    text-shadow: 2px 2px 5px #7ed6df;
+}
+
+.navaction nav ul li::after {
+    content: "";
+    display: block;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 0.5px solid rgb(55, 54, 54);
+}
+
+
+/* -----------Social media links---------- */
+
+.sociallinksbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 4rem;
+    padding: 2rem;
+}
+
+.sociallinksbox a:hover {
+    text-shadow: 2px 2px 8px #7ed6df;
+}
+
+/* -------------tooltips----------- */
+.tooltips {
+    position: relative;
+}
+
+.linkedin .tooltiptext {
+    font-size: 1rem;
+    position: absolute;
+    bottom: 3.5rem;
+    color: rgb(143, 141, 141);
+    display: none;
+    right: -2rem;
+}
+
+.twitter .tooltiptext {
+    font-size: 1rem;
+    position: absolute;
+    bottom: 3.5rem;
+    color: rgb(143, 141, 141);
+    display: none;
+    right: -1rem;
+}
+
+.instagram .tooltiptext {
+    font-size: 1rem;
+    position: absolute;
+    bottom: 3.5rem;
+    color: rgb(143, 141, 141);
+    display: none;
+    right: -2rem;
+}
+
+.github .tooltiptext {
+    font-size: 1rem;
+    position: absolute;
+    bottom: 3.5rem;
+    color: rgb(143, 141, 141);
+    display: none;
+    right: -1rem;
+}
+
+.linkedin:hover .tooltiptext {
+    display: block;
+
+}
+
+.twitter:hover .tooltiptext {
+    display: block;
+}
+
+.instagram:hover .tooltiptext {
+    display: block;
+}
+
+.github:hover .tooltiptext {
+    display: block;
+}
+
+.resposivenavactio {
+    display: none;
+}
+
+/* #################################################################################### */
+
+/* ------------------------------------------------------------- */
+/* ############# Responsive Web Design - Media Queries #############  */
+/* ------------------------------------------------------------- */

@@ -1,0 +1,172 @@
+.herosection {
+    padding: 1rem 0rem;
+    padding-left: 3rem;
+    height: 100vh;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.namebox {
+    margin: 2rem 3rem;
+}
+
+.nameboxinner {
+    margin: -35px 26px;
+}
+
+.namebox .nameboxinner .hi h1 {
+    font-size: 8rem;
+    color: #ffcd19;
+
+}
+
+.namebox .nameboxinner .name {
+    font-size: 10rem;
+    margin-top: -4rem;
+}
+
+.namebox .nameboxinner .name .gauravtext {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.namebox .nameboxinner .webdev {
+    font-size: 10rem;
+    margin-top: -3rem;
+    position: relative;
+
+}
+
+.namebox .nameboxinner .webdev h3 {
+    -webkit-text-stroke: 4px #21e9ff;
+    color: transparent;
+}
+
+.namebox .nameboxinner .webdev h3::selection {
+    background: none;
+}
+
+
+/* --------------------------- */
+
+.animatedtextbox {
+    margin: 2rem 3rem;
+    position: relative;
+}
+
+.animatedtextbox .texthere {
+    position: relative;
+    width: fit-content;
+    margin-left: 3rem;
+    /* background-color: rebeccapurple; */
+    height: 5rem;
+    overflow: hidden;
+    line-height: 5rem;
+}
+
+.animatedtextbox .texthere h4 {
+    font-size: 3rem;
+    color: #21e9ff;
+    font-weight: 300;
+    font-weight: bold;
+    padding-right: 2rem;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(2) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -120px;
+        /* top: -70px; */
+    }
+}
+
+/* ---------------------------------- */
+.animatedtextbox .texthere h4::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 5rem;
+    background-color: #1c1c1c;
+    top: 4px;
+    right: 0;
+    border-left: 4px solid #ffc800;
+    animation-name: textanimation;
+    animation-duration: 3s;
+    animation-delay: 1ms;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes textanimation {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 35rem;
+    }
+
+}
+
+/* ---------------------------------- */
+
+.contactusbtn {
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+
+}
+
+.contactusbtn a {
+    font-size: 3.5rem;
+    text-decoration: none;
+    border: 4px solid #7ed6df;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    transition: background 0.4s ease;
+}
+
+
+.contactusbtn a:hover {
+    background: #7ed6df;
+    box-shadow: #f9ca24 0px 5px 15px;
+}
+
+/* ----------heroimagegif------------- */
+
+.heroimagegif {
+    width: 33%;
+}
+
+.heroimagegif img {
+    width: 100%;
+    position: relative;
+    right: 6rem;
+    top: 27%;
+    animation-name: imageanimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+    /* border: 5px solid red; */
+
+}
+
+@keyframes imageanimation {
+    0% {
+        box-shadow: #ffc800 0px 5px 20px;
+
+    }
+
+    50% {
+        box-shadow: #ffffff 0px 5px 20px;
+    }
+
+    100% {
+        box-shadow: #21e9ff 0px 5px 20px;
+    }
+}

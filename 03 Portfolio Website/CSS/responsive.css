@@ -1,0 +1,1568 @@
+/* #################################################################################### */
+
+/* ------------------------------------------------------------- */
+/* ############# Responsive Web Design - Media Queries #############  */
+/* ------------------------------------------------------------- */
+
+
+/* ##################### 1201px to more ####################### */
+
+@media (min-width: 1900px) {
+    body {
+        /* background-color: aqua; */
+    }
+}
+
+
+@media (min-width: 1201px) and (max-width: 1442px) {
+
+
+    /* herosection */
+
+    .herosection {
+        padding: 1rem 0rem;
+        padding-left: 3rem;
+        height: 100vh;
+        width: 90%;
+        display: flex;
+        /* justify-content: space-between; */
+        /* flex-direction: column; */
+        /* align-items: center; */
+        flex-direction: column;
+    }
+
+    .heroimagegif {
+        width: 45%;
+        margin: auto;
+        margin-top: -7rem;
+    }
+
+    .heroimagegif img {
+        width: 100%;
+        /* position: relative; */
+        /* right: 6rem; */
+        /* top: 27%; */
+        animation-name: imageanimation;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: backwards;
+        /* border: 5px solid red; */
+        /* text-align: center; */
+    }
+
+    .resposivenavactio {
+        display: none;
+    }
+
+    /* -------------------------------------------------------------------------------- */
+    /* navactionssection */
+
+    .navactioncontainer {
+        background: rgb(24, 24, 24);
+        box-shadow: rgba(59, 59, 59, 0.15) 2.4px 2.4px 3.2px;
+        height: 100vh;
+        text-align: center;
+        width: 20%;
+    }
+
+    /* skillssections */
+
+    .skillsbox {
+        font-size: 3rem;
+        /* background-color: red; */
+        width: 95%;
+        margin-left: 3rem;
+        padding: 1rem;
+    }
+
+    .skills {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin-bottom: 1rem;
+    }
+
+    .skillssections {
+        /* padding: 1rem 3rem; */
+        height: 100vh;
+        width: 90%;
+        position: relative;
+    }
+
+    .cubessection {
+        position: absolute;
+        right: 53rem;
+        bottom: 6rem;
+        /* top: 64%; */
+    }
+
+    /* projectssection */
+
+    .projectsbox {
+        width: 42%;
+        border: 2px solid rgb(47, 241, 255);
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: rgba(163, 163, 163, 0.2) 0px 20px 30px;
+        margin: 2rem 2rem;
+    }
+
+    /* contact us section */
+
+    .contactus .contact {
+        margin-left: 2rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .contactform {
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+        width: 85%;
+        margin-bottom: 4rem;
+    }
+
+    .contactform .submitbtn {
+        font-weight: bold;
+        margin-top: 4rem;
+        padding: 0.5rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+}
+
+/* ##################### 1025px to 1200px ####################### */
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+
+    /* herosection */
+
+    .herosection {
+        padding: 1rem 0rem;
+        padding-left: 3rem;
+        height: 100vh;
+        width: 90%;
+        display: flex;
+        /* justify-content: space-between; */
+        /* flex-direction: column; */
+        /* align-items: center; */
+        flex-direction: column;
+    }
+
+    .heroimagegif {
+        width: 45%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    .heroimagegif img {
+        width: 100%;
+        /* position: relative; */
+        /* right: 6rem; */
+        /* top: 27%; */
+        animation-name: imageanimation;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: backwards;
+        /* border: 5px solid red; */
+        /* text-align: center; */
+    }
+
+    /* -------------------------------------------------------------------------------- */
+    body {
+        /* background-color: rgb(180, 20, 169); */
+    }
+
+    /* navactionssection */
+
+    .navactioncontainer {
+        background: rgb(24, 24, 24);
+        box-shadow: rgba(59, 59, 59, 0.15) 2.4px 2.4px 3.2px;
+        height: 100vh;
+        text-align: center;
+        width: 20%;
+    }
+
+    /* skillssections */
+
+    .skillsbox {
+        font-size: 3rem;
+        /* background-color: red; */
+        width: 95%;
+        margin-left: 3rem;
+        padding: 1rem;
+    }
+
+    .skills {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin-bottom: 1rem;
+    }
+
+    .skillssections {
+        /* padding: 1rem 3rem; */
+        height: 100vh;
+        width: 90%;
+        position: relative;
+    }
+
+    .cubessection {
+        position: absolute;
+        right: 53rem;
+        bottom: 6rem;
+        /* top: 64%; */
+    }
+
+    /* projectssection */
+
+    .projectsbox {
+        width: 42%;
+        border: 2px solid rgb(47, 241, 255);
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: rgba(163, 163, 163, 0.2) 0px 20px 30px;
+        margin: 2rem 2rem;
+    }
+
+    /* contact us section */
+
+    .contactus .contact {
+        margin-left: 2rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .contactform {
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+        width: 85%;
+        margin-bottom: 4rem;
+    }
+
+    .contactform .submitbtn {
+        font-weight: bold;
+        margin-top: 4rem;
+        padding: 0.5rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+
+
+}
+
+
+
+
+/* ##################### 769px to 1024px ####################### */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: white;
+        font-size: 62.5%;
+    }
+
+
+
+    .herosection {
+        padding: 2rem 0rem;
+        padding-left: 1rem;
+        height: 100vh;
+        width: 90%;
+        /* display: flex; */
+        /* justify-content: space-between; */
+    }
+
+    .heroimagegif {
+        width: 33%;
+        display: none;
+    }
+
+    /* navactionsection */
+    .navactioncontainer {
+        background: rgb(24, 24, 24);
+        box-shadow: rgba(59, 59, 59, 0.15) 2.4px 2.4px 3.2px;
+        height: 100vh;
+        text-align: center;
+        width: 21%;
+    }
+
+    .navaction {
+        margin: 1rem 0;
+        font-size: 11rem;
+        /* padding: 1rem; */
+    }
+
+    .nameboxinner {
+        margin: -9px 26px;
+    }
+
+    .namebox .nameboxinner .name {
+        font-size: 10rem;
+        margin-top: -1rem;
+    }
+
+    .namebox .nameboxinner .webdev {
+        font-size: 10rem;
+        margin-top: 0rem;
+        position: relative;
+    }
+
+    .sociallinksbox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 7rem;
+        padding: 2rem;
+    }
+
+
+    /* -------------------------------------------------------------------------------- */
+    /* -------------------------------------------------------------------------------- */
+    body {
+        /* background-color: rgb(180, 20, 169); */
+    }
+
+    /* navactionssection */
+
+    .navactioncontainer {
+        background: rgb(24, 24, 24);
+        box-shadow: rgba(59, 59, 59, 0.15) 2.4px 2.4px 3.2px;
+        height: 100vh;
+        text-align: center;
+        width: 20%;
+    }
+
+    /* aboutsectio */
+    .aboutsection {
+        padding: 1rem 0rem;
+        height: 100vh;
+        width: 90%;
+    }
+
+    .aboutustetx {
+        margin-top: 1rem;
+        margin-left: 3rem;
+        margin-bottom: 3rem;
+        margin-right: 3rem;
+    }
+
+
+    /* skillssections */
+
+    .skillsbox {
+        font-size: 3rem;
+        /* background-color: red; */
+        width: 95%;
+        margin-left: 0rem;
+        padding: 1rem;
+    }
+
+    .skills {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin-bottom: 1rem;
+    }
+
+    .skillssections {
+        /* padding: 1rem 3rem; */
+        height: 100vh;
+        width: 90%;
+        position: relative;
+    }
+
+    .cubessection {
+        position: absolute;
+        right: 44rem;
+        bottom: 29rem;
+    }
+
+    /* projectssection */
+
+    .projectsbox {
+        width: 42%;
+        border: 2px solid rgb(47, 241, 255);
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: rgba(163, 163, 163, 0.2) 0px 20px 30px;
+        margin: 2rem 2rem;
+    }
+
+    /* contact us section */
+
+    .contactus .contact {
+        margin-left: 2rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .contactform {
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+        width: 85%;
+        margin-bottom: 4rem;
+    }
+
+    .contactussection {
+        /* padding: 1rem 3rem; */
+        height: 100vh;
+        width: 80%;
+    }
+
+    .contactform .submitbtn {
+        font-weight: bold;
+        margin-top: 4rem;
+        padding: 0.5rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .contact .mapbox {
+        width: 81%;
+    }
+
+    .contact .mapbox iframe {
+        margin: 1rem 0rem;
+        border-radius: 4px;
+        box-shadow: rgba(255, 255, 255, 0.351) 0px 3px 8px;
+        width: 100%;
+    }
+
+}
+
+
+
+
+/* ##################### 481px to 768px ####################### */
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: white;
+        font-size: 43.5%;
+    }
+
+    .homeconatiner {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .navactioncontainer {
+        background: rgb(24, 24, 24);
+        box-shadow: rgba(59, 59, 59, 0.15) 2.4px 2.4px 3.2px;
+        height: 100vh;
+        text-align: center;
+        width: 21%;
+        display: block;
+    }
+
+
+    .herosection {
+        padding: 2rem 0rem;
+        padding-left: 1rem;
+        height: 100vh;
+        width: 80%;
+    }
+
+    .heroimagegif {
+        width: 33%;
+        display: none;
+    }
+
+    /* navactionsection */
+    .navactioncontainer {
+        background: rgb(24, 24, 24);
+        box-shadow: rgba(59, 59, 59, 0.15) 2.4px 2.4px 3.2px;
+        height: 100vh;
+        text-align: center;
+        width: 21%;
+    }
+
+    .mylogo {
+        background: rgb(0, 1, 0);
+        font-size: 4rem;
+        padding: 0.5rem;
+    }
+
+    .navaction {
+        margin: 1rem 0;
+        font-size: 44rem;
+        /* padding: 1rem; */
+    }
+
+    .nameboxinner {
+        margin: -9px 35px;
+        width: auto;
+    }
+
+    .namebox .nameboxinner .name {
+        font-size: 10rem;
+        margin-top: -1rem;
+    }
+
+    .namebox .nameboxinner .webdev {
+        font-size: 10rem;
+        margin-top: 0rem;
+        position: relative;
+        letter-spacing: 1rem;
+    }
+
+    .namebox .nameboxinner .webdev h3 {
+        -webkit-text-stroke: 2px #21e9ff;
+        color: transparent;
+    }
+
+    .sociallinksbox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* font-size: 11rem; */
+        padding: 1rem;
+        flex-wrap: wrap;
+
+    }
+
+    .tooltips a {
+        position: relative;
+        font-size: 5rem;
+    }
+
+    /* responsiveNavaction style */
+
+    .resposivenavactio .navlist {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -4rem;
+
+    }
+
+    .resposivenavactio .navlist li {
+        font-size: 10rem;
+        list-style: none;
+        margin: 0rem 3rem;
+        cursor: pointer;
+
+    }
+
+    .resposivenavactio .navlist li i {
+        box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+        /* box-shadow: #ffc800 0px 5px 15px; */
+    }
+
+    .resposivenavactio .navlist li i:hover {
+        box-shadow: #ffc800 0px 5px 15px;
+    }
+
+
+    .animatedtextbox .texthere h4 {
+        font-size: 3rem;
+        color: #21e9ff;
+        font-weight: 300;
+        font-weight: bold;
+        padding-right: 2rem;
+        position: relative;
+        top: 0;
+        animation: slide 12s steps(2) infinite;
+    }
+
+    @keyframes slide {
+        100% {
+            /* top: -120px; */
+            top: -70px;
+        }
+    }
+
+
+    /* -------------------------------------------------------------------------------- */
+    /* -------------------------------------------------------------------------------- */
+    body {
+        /* background-color: rgb(180, 20, 169); */
+    }
+
+    /* navactionssection */
+
+    .navactioncontainer {
+        background: rgb(24, 24, 24);
+        box-shadow: rgba(59, 59, 59, 0.15) 2.4px 2.4px 3.2px;
+        height: 100vh;
+        text-align: center;
+        width: 20%;
+    }
+
+    /* aboutsectio */
+    .aboutsection {
+        padding: 1rem 0rem;
+        height: 100vh;
+        width: 90%;
+    }
+
+    .aboutustetx {
+        margin-top: 1rem;
+        margin-left: 3rem;
+        margin-bottom: 3rem;
+        margin-right: 3rem;
+    }
+
+
+    /* skillssections */
+
+    .skillsbox {
+        font-size: 6rem;
+        /* background-color: red; */
+        width: 95%;
+        margin-left: 0rem;
+        padding: 1rem;
+    }
+
+    .skills {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        margin-bottom: 3rem;
+    }
+
+    .html::after {
+        content: "";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        border-radius: 100px;
+        left: 79%;
+        top: -3px;
+        box-shadow: #ffcd1b 0px 0px 20px;
+        animation: htmlafter 3s;
+    }
+
+    .css::after {
+        content: "";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        border-radius: 100px;
+        left: 64%;
+        top: -4px;
+        box-shadow: #ffcd1b 0px 0px 20px;
+        animation: cssafter 3s;
+    }
+
+    .JavaScript::after {
+        content: "";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        border-radius: 100px;
+        left: 59%;
+        top: -4px;
+        box-shadow: #ffcd1b 0px 0px 20px;
+        animation: javscriptafter 3s;
+    }
+
+    .React::after {
+        content: "";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        border-radius: 100px;
+        left: 49%;
+        top: -4px;
+        box-shadow: #ffcd1b 0px 0px 20px;
+        animation: reactafter 3s;
+    }
+
+    .Bootstrap::after {
+        content: "";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        border-radius: 100px;
+        left: 69%;
+        top: -3px;
+        box-shadow: #ffcd1b 0px 0px 20px;
+        animation-name: Bootstrapdafter;
+        animation-duration: 3s;
+    }
+
+    .Tailwind::after {
+        content: "";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        border-radius: 100px;
+        left: 59%;
+        top: -4px;
+        box-shadow: #ffcd1b 0px 0px 20px;
+        animation-name: Tailwindafter;
+        animation-duration: 3s;
+    }
+
+    .skillssections {
+        /* padding: 1rem 3rem; */
+        height: 100vh;
+        width: 90%;
+        position: relative;
+    }
+
+    .cubessection {
+        position: absolute;
+        right: 44rem;
+        bottom: 3rem;
+    }
+
+    /* projectssection */
+
+    .projectsbox {
+        width: 42%;
+        border: 2px solid rgb(47, 241, 255);
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: rgba(163, 163, 163, 0.2) 0px 20px 30px;
+        margin: 2rem 2rem;
+    }
+
+    /* contact us section */
+
+    .contactus .contact {
+        margin-left: 2rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .contactform {
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+        width: 85%;
+        margin-bottom: 4rem;
+    }
+
+    .contactussection {
+        /* padding: 1rem 3rem; */
+        height: 100vh;
+        width: 80%;
+    }
+
+    .contactform .submitbtn {
+        font-weight: bold;
+        margin-top: 4rem;
+        padding: 0.5rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .contact .mapbox {
+        width: 81%;
+    }
+
+    .contact .mapbox iframe {
+        margin: 1rem 0rem;
+        border-radius: 4px;
+        box-shadow: rgba(255, 255, 255, 0.351) 0px 3px 8px;
+        width: 100%;
+    }
+
+}
+
+
+
+/* ##################### 320px to 480px ####################### */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: white;
+        font-size: 47.5%;
+    }
+
+    .homeconatiner {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navactioncontainer {
+        background: rgb(24, 24, 24);
+        box-shadow: rgba(59, 59, 59, 0.15) 2.4px 2.4px 3.2px;
+        height: 100vh;
+        text-align: center;
+        width: 21%;
+        display: none;
+    }
+
+
+    .herosection {
+        /* padding: 2rem 0rem; */
+        padding-left: 1rem;
+        height: 100vh;
+        width: 100%;
+        /* display: flex; */
+        /* justify-content: space-between; */
+    }
+
+    .heroimagegif {
+        width: 33%;
+        display: none;
+    }
+
+    .namebox .nameboxinner .name {
+        font-size: 10rem;
+        margin-top: -1rem;
+    }
+
+    .namebox .nameboxinner .webdev {
+        font-size: 10rem;
+        margin-top: 0rem;
+        position: relative;
+    }
+
+    .namebox .nameboxinner .webdev h3 {
+        -webkit-text-stroke: 2px #21e9ff;
+        color: transparent;
+    }
+
+    .animatedtextbox {
+        margin: 3rem 0rem;
+        position: relative;
+    }
+
+    .nameboxinner {
+        margin: 5px 26px;
+    }
+
+
+    /* ----------------responsiveNavaction style------------------ */
+
+    .resposivenavactio {
+        display: block;
+        background: #201f1f;
+        position: sticky;
+        top: 0;
+        box-shadow: rgba(48, 47, 47, 0.45) 0px 25px 20px -20px;
+        z-index: 1000;
+    }
+
+    .resposivenavactio .navlist {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -4rem;
+
+    }
+
+    .resposivenavactio .navlist li {
+        font-size: 10rem;
+        list-style: none;
+        margin: 0rem 3rem;
+        cursor: pointer;
+
+    }
+
+    .resposivenavactio .navlist li i {
+        box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+        /* box-shadow: #ffc800 0px 5px 15px; */
+    }
+
+    .resposivenavactio .navlist li i:hover {
+        box-shadow: #ffc800 0px 5px 15px;
+    }
+
+
+    .animatedtextbox .texthere h4 {
+        font-size: 3rem;
+        color: #21e9ff;
+        font-weight: 300;
+        font-weight: bold;
+        padding-right: 2rem;
+        position: relative;
+        top: 0;
+        animation: slide 12s steps(2) infinite;
+    }
+
+    @keyframes slide {
+        100% {
+            /* top: -120px; */
+            top: -70px;
+        }
+    }
+
+    .animatedtextbox .texthere h4::after {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 5rem;
+        background-color: #1c1c1c;
+        top: 4px;
+        right: 0;
+        border-left: 4px solid #ffc800;
+        animation-name: textanimation;
+        animation-duration: 3s;
+        animation-delay: 1ms;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+        animation-direction: alternate-reverse;
+    }
+
+    @keyframes textanimation {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 35rem;
+        }
+
+    }
+
+    /* -------------------------------------------------------------------------------- */
+    /* -------------------------------------------------------------------------------- */
+    body {
+        /* background-color: rgb(180, 20, 169); */
+    }
+
+    /* navactionssection */
+
+    .navactioncontainer {
+        background: rgb(24, 24, 24);
+        box-shadow: rgba(59, 59, 59, 0.15) 2.4px 2.4px 3.2px;
+        height: 100vh;
+        text-align: center;
+        width: 20%;
+    }
+
+    /* aboutsectio */
+    .aboutsection {
+        padding: 1rem 0rem;
+        height: 100vh;
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+
+    .aboutustetx {
+        margin-top: 1rem;
+        margin-left: 3rem;
+        margin-bottom: 3rem;
+        margin-right: 3rem;
+    }
+
+
+    /* skillssections */
+
+    .skillsbox {
+        font-size: 11rem;
+        /* background-color: red; */
+        width: 99%;
+        margin-left: 0rem;
+        padding: 1rem;
+    }
+
+    .skills {
+        display: flex;
+        /* align-items: center; */
+        width: 100%;
+        /* justify-content: space-between; */
+        flex-direction: row-reverse;
+        margin-bottom: 3rem;
+        flex-direction: column-reverse;
+        align-items: baseline;
+    }
+
+    .skillname {
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        font-weight: bold;
+    }
+
+    .html::after {
+        content: "";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        border-radius: 100px;
+        left: 79%;
+        top: -3px;
+        box-shadow: #ffcd1b 0px 0px 20px;
+        animation: htmlafter 3s;
+    }
+
+    .css::after {
+        content: "";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        border-radius: 100px;
+        left: 64%;
+        top: -4px;
+        box-shadow: #ffcd1b 0px 0px 20px;
+        animation: cssafter 3s;
+    }
+
+    .JavaScript::after {
+        content: "";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        border-radius: 100px;
+        left: 59%;
+        top: -4px;
+        box-shadow: #ffcd1b 0px 0px 20px;
+        animation: javscriptafter 3s;
+    }
+
+    .React::after {
+        content: "";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        border-radius: 100px;
+        left: 49%;
+        top: -4px;
+        box-shadow: #ffcd1b 0px 0px 20px;
+        animation: reactafter 3s;
+    }
+
+    .Bootstrap::after {
+        content: "";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        border-radius: 100px;
+        left: 69%;
+        top: -3px;
+        box-shadow: #ffcd1b 0px 0px 20px;
+        animation-name: Bootstrapdafter;
+        animation-duration: 3s;
+    }
+
+    .Tailwind::after {
+        content: "";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        border-radius: 100px;
+        left: 59%;
+        top: -4px;
+        box-shadow: #ffcd1b 0px 0px 20px;
+        animation-name: Tailwindafter;
+        animation-duration: 3s;
+    }
+
+    .skillssections {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        margin: 0rem 0rem;
+        margin-bottom: 2rem;
+    }
+
+    .cubessection {
+        position: absolute;
+        right: 39rem;
+        bottom: -119rem;
+    }
+
+    /* projectssection */
+
+    .projectsbox {
+        width: 100%;
+        border: 2px solid rgb(47, 241, 255);
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: rgba(163, 163, 163, 0.2) 0px 20px 30px;
+        margin: 1rem 0rem;
+    }
+
+    .insideprojects {
+        display: flex;
+        /* background-color: red; */
+        align-items: center;
+        /* justify-content: space-evenly; */
+        flex-wrap: wrap;
+        margin: 1rem 1rem;
+        justify-content: center;
+        margin-left: 5rem;
+    }
+
+    /* contact us section */
+
+    .contactus .contact {
+        margin-left: 2rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .contactform {
+        display: flex;
+        flex-direction: column;
+        font-size: 3rem;
+        width: 100%;
+        margin-bottom: 4rem;
+        margin-left: 5rem;
+    }
+
+    .contactussection {
+        /* padding: 1rem 3rem; */
+        height: 100vh;
+        width: 80%;
+    }
+
+    .contactform .submitbtn {
+        font-weight: bold;
+        margin-top: 4rem;
+        padding: 0.5rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .contact .mapbox {
+        width: 100%;
+    }
+
+    .contact .mapbox iframe {
+        margin: 1rem 2rem;
+        border-radius: 4px;
+        box-shadow: rgba(255, 255, 255, 0.351) 0px 3px 8px;
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+
+
+/* ##################### 280px to 321px ####################### */
+
+@media (max-width: 321px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: white;
+        font-size: 35.5%;
+    }
+
+    .homeconatiner {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navactioncontainer {
+        background: rgb(24, 24, 24);
+        box-shadow: rgba(59, 59, 59, 0.15) 2.4px 2.4px 3.2px;
+        height: 100vh;
+        text-align: center;
+        width: 21%;
+        display: none;
+    }
+
+
+    .herosection {
+        /* padding: 2rem 0rem; */
+        padding-left: 1rem;
+        height: 100vh;
+        width: 100%;
+        /* display: flex; */
+        /* justify-content: space-between; */
+    }
+
+    .heroimagegif {
+        width: 33%;
+        display: none;
+    }
+
+    .namebox .nameboxinner .name {
+        font-size: 10rem;
+        margin-top: -1rem;
+    }
+
+    .namebox .nameboxinner .webdev {
+        font-size: 10rem;
+        margin-top: 0rem;
+        position: relative;
+    }
+
+    .namebox .nameboxinner .webdev h3 {
+        -webkit-text-stroke: 2px #21e9ff;
+        color: transparent;
+    }
+
+    .nameboxinner {
+        margin: 5px 26px;
+    }
+
+
+    /* ----------------responsiveNavaction style------------------ */
+
+    .resposivenavactio {
+        display: block;
+        background: #201f1f;
+        position: sticky;
+        top: 0;
+        box-shadow: rgba(48, 47, 47, 0.45) 0px 25px 20px -20px;
+    }
+
+    .resposivenavactio .navlist {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -4rem;
+
+    }
+
+    .resposivenavactio .navlist li {
+        font-size: 10rem;
+        list-style: none;
+        margin: 0rem 3rem;
+        cursor: pointer;
+
+    }
+
+    .resposivenavactio .navlist li i {
+        box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+        /* box-shadow: #ffc800 0px 5px 15px; */
+    }
+
+    .resposivenavactio .navlist li i:hover {
+        box-shadow: #ffc800 0px 5px 15px;
+    }
+
+
+    .animatedtextbox .texthere h4 {
+        font-size: 3rem;
+        color: #21e9ff;
+        font-weight: 300;
+        font-weight: bold;
+        padding-right: 2rem;
+        position: relative;
+        top: 0;
+        animation: slide 12s steps(2) infinite;
+    }
+
+    @keyframes slide {
+        100% {
+            /* top: -120px; */
+            top: -70px;
+        }
+    }
+
+    .animatedtextbox .texthere h4::after {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 5rem;
+        background-color: #1c1c1c;
+        top: 4px;
+        right: 0;
+        border-left: 4px solid #ffc800;
+        animation-name: textanimation;
+        animation-duration: 3s;
+        animation-delay: 1ms;
+        animation-iteration-count: infinite;
+        animation-fill-mode: forwards;
+        animation-direction: alternate-reverse;
+    }
+
+    @keyframes textanimation {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 35rem;
+        }
+
+    }
+
+
+    /* -------------------------------------------------------------------------------- */
+    /* -------------------------------------------------------------------------------- */
+    body {
+        /* background-color: rgb(180, 20, 169); */
+    }
+
+    /* navactionssection */
+
+    .navactioncontainer {
+        background: rgb(24, 24, 24);
+        box-shadow: rgba(59, 59, 59, 0.15) 2.4px 2.4px 3.2px;
+        height: 100vh;
+        text-align: center;
+        width: 20%;
+    }
+
+    /* aboutsectio */
+    .aboutsection {
+        padding: 1rem 0rem;
+        height: 100vh;
+        width: 90%;
+    }
+
+    .aboutustetx {
+        margin-top: 1rem;
+        margin-left: 3rem;
+        margin-bottom: 3rem;
+        margin-right: 3rem;
+    }
+
+
+    /* skillssections */
+
+    .skillsbox {
+        font-size: 11rem;
+        /* background-color: red; */
+        width: 99%;
+        margin-left: 0rem;
+        padding: 1rem;
+    }
+
+    .skills {
+        display: flex;
+        /* align-items: center; */
+        width: 100%;
+        /* justify-content: space-between; */
+        flex-direction: row-reverse;
+        margin-bottom: 3rem;
+        flex-direction: column-reverse;
+        align-items: baseline;
+    }
+
+    .skillname {
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        font-weight: bold;
+    }
+
+    .html::after {
+        content: "";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        border-radius: 100px;
+        left: 79%;
+        top: -3px;
+        box-shadow: #ffcd1b 0px 0px 20px;
+        animation: htmlafter 3s;
+    }
+
+    .css::after {
+        content: "";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        border-radius: 100px;
+        left: 64%;
+        top: -4px;
+        box-shadow: #ffcd1b 0px 0px 20px;
+        animation: cssafter 3s;
+    }
+
+    .JavaScript::after {
+        content: "";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        border-radius: 100px;
+        left: 59%;
+        top: -4px;
+        box-shadow: #ffcd1b 0px 0px 20px;
+        animation: javscriptafter 3s;
+    }
+
+    .React::after {
+        content: "";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        border-radius: 100px;
+        left: 49%;
+        top: -4px;
+        box-shadow: #ffcd1b 0px 0px 20px;
+        animation: reactafter 3s;
+    }
+
+    .Bootstrap::after {
+        content: "";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        border-radius: 100px;
+        left: 69%;
+        top: -3px;
+        box-shadow: #ffcd1b 0px 0px 20px;
+        animation-name: Bootstrapdafter;
+        animation-duration: 3s;
+    }
+
+    .Tailwind::after {
+        content: "";
+        position: absolute;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        border-radius: 100px;
+        left: 59%;
+        top: -4px;
+        box-shadow: #ffcd1b 0px 0px 20px;
+        animation-name: Tailwindafter;
+        animation-duration: 3s;
+    }
+
+    .skillssections {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        margin: 0rem 0rem;
+    }
+
+    .cubessection {
+        position: absolute;
+        right: 35rem;
+        bottom: -8rem;
+    }
+
+    /* projectssection */
+
+    .projectsbox {
+        width: 100%;
+        border: 2px solid rgb(47, 241, 255);
+        position: relative;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: rgba(163, 163, 163, 0.2) 0px 20px 30px;
+        margin: 1rem 0rem;
+    }
+
+    .insideprojects {
+        display: flex;
+        /* background-color: red; */
+        align-items: center;
+        /* justify-content: space-evenly; */
+        flex-wrap: wrap;
+        margin: 1rem 1rem;
+        justify-content: center;
+        margin-left: 5rem;
+    }
+
+    /* contact us section */
+
+    .contactus .contact {
+        margin-left: 2rem;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .contactform {
+        display: flex;
+        flex-direction: column;
+        font-size: 3rem;
+        width: 100%;
+        margin-bottom: 4rem;
+        margin-left: 5rem;
+    }
+
+    .contactussection {
+        /* padding: 1rem 3rem; */
+        height: 100vh;
+        width: 80%;
+    }
+
+    .contactform .submitbtn {
+        font-weight: bold;
+        margin-top: 4rem;
+        padding: 0.5rem;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .contact .mapbox {
+        width: 100%;
+    }
+
+    .contact .mapbox iframe {
+        margin: 1rem 2rem;
+        border-radius: 4px;
+        box-shadow: rgba(255, 255, 255, 0.351) 0px 3px 8px;
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+/* --------------------------------------- */

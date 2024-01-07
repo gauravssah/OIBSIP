@@ -1,0 +1,44 @@
+/* ------AboutSection-------  */
+.aboutsection {
+    padding: 1rem 3rem;
+    height: 100vh;
+    width: 90%;
+}
+
+.aboutheading {
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.aboutheading .aboutus {
+    font-size: 3rem;
+    margin-left: 3rem;
+}
+
+
+.aboutustetx {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+.aboutustetx .aboutuspara {
+    font-size: 2rem;
+    margin-left: 3rem;
+    color: rgb(169, 163, 156);
+}
+
+.aboutustetx .aboutuspara {
+    transform: translate(-400%);
+    transition: transform 0.4s ease-in-out;
+}
+
+.aboutustetx .aboutuspara:nth-child(even) {
+    transform: translate(-400%);
+    transition: transform 0.4s ease-in-out;
+}
+
+.aboutustetx .aboutuspara.showtext {
+    transform: translate(-0%);
+    transition: transform 0.4s ease-in-out;
+}

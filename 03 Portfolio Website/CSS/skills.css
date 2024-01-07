@@ -1,0 +1,405 @@
+/* ---------- skillssections---------- */
+
+.skillssections {
+    /* padding: 1rem 3rem; */
+    height: 100vh;
+    width: 90%;
+}
+
+/* ----------skillsbox------------ */
+
+.skillsbox {
+    font-size: 3rem;
+    /* background-color: red; */
+    width: 80%;
+    margin-left: 3rem
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    width: 81%;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 1rem;
+}
+
+.skillname {
+    margin-left: 2rem;
+}
+
+.skillline {
+    width: 78%;
+    height: 1rem;
+    background-color: rgb(65, 63, 63);
+    border-radius: 100px;
+    position: relative;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+}
+
+/* ---------------------------- */
+
+.html::before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+    animation: htmlbefore 3s;
+}
+
+@keyframes htmlbefore {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 80%;
+    }
+
+}
+
+.html::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 100px;
+    left: 79%;
+    top: -6px;
+    box-shadow: #ffcd1b 0px 0px 20px;
+    animation: htmlafter 3s;
+}
+
+@keyframes htmlafter {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 79%;
+    }
+}
+
+/* ---------------------------- */
+
+.css::before {
+    content: "";
+    position: absolute;
+    width: 65%;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+    animation: cssbefore 3s;
+}
+
+@keyframes cssbefore {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 65%;
+    }
+
+}
+
+.css::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 100px;
+    left: 64%;
+    top: -6px;
+    box-shadow: #ffcd1b 0px 0px 20px;
+    animation: cssafter 3s;
+}
+
+@keyframes cssafter {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 64%;
+    }
+}
+
+/* ----------------------------------- */
+
+.JavaScript::before {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+    animation: JavaScriptbefor 3s;
+}
+
+@keyframes JavaScriptbefor {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 60%;
+    }
+
+}
+
+.JavaScript::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 100px;
+    left: 59%;
+    top: -6px;
+    box-shadow: #ffcd1b 0px 0px 20px;
+    animation: javscriptafter 3s;
+}
+
+@keyframes javscriptafter {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 59%;
+    }
+}
+
+/* ------------------------------ */
+
+.React::before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+    animation: reactbefore 3s;
+}
+
+@keyframes reactbefore {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 50%;
+    }
+
+}
+
+.React::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 100px;
+    left: 49%;
+    top: -6px;
+    box-shadow: #ffcd1b 0px 0px 20px;
+    animation: reactafter 3s;
+}
+
+@keyframes reactafter {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 49%;
+    }
+}
+
+/* ----------------------------------- */
+
+.Bootstrap::before {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+    animation-name: Bootstrapdbefore;
+    animation-duration: 3s;
+}
+
+@keyframes Bootstrapdbefore {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 70%;
+    }
+}
+
+.Bootstrap::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 100px;
+    left: 69%;
+    top: -6px;
+    box-shadow: #ffcd1b 0px 0px 20px;
+    animation-name: Bootstrapdafter;
+    animation-duration: 3s;
+}
+
+@keyframes Bootstrapdafter {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 69%;
+    }
+}
+
+/* --------------------------------- */
+
+.Tailwind::before {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+    animation-name: Tailwindbefore;
+    animation-duration: 3s;
+}
+
+@keyframes Tailwindbefore {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 60%;
+    }
+}
+
+.Tailwind::after {
+    content: "";
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    background: #ffffff;
+    border-radius: 100px;
+    left: 59%;
+    top: -6px;
+    box-shadow: #ffcd1b 0px 0px 20px;
+    animation-name: Tailwindafter;
+    animation-duration: 3s;
+}
+
+@keyframes Tailwindafter {
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 59%;
+    }
+}
+
+
+/* ----------------- cubes sections --------------------  */
+
+.cubessection {
+    position: absolute;
+    right: 34rem;
+    /* bottom: 22rem; */
+    top: 64%;
+}
+
+.Tailwindfontsize {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    perspective: 800px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.cube {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: cuberotate 15s linear infinite;
+
+}
+
+.face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.front {
+    background-color: #17e8ffc5;
+    box-shadow: #ffcd1b 0px 7px 29px 0px;
+    transform: translateZ(100px);
+}
+
+.back {
+    background-color: #17e8ffc5;
+    box-shadow: #ffcd1b 0px 7px 29px 0px;
+    transform: translateZ(-100px);
+}
+
+.left {
+    background-color: #17e8ffc5;
+    box-shadow: #ffcd1b 0px 7px 29px 0px;
+    transform: translateX(-100px) rotateY(-90deg);
+}
+
+.right {
+    background-color: #17e8ffc5;
+    box-shadow: #ffcd1b 0px 7px 29px 0px;
+    transform: translateX(100px) rotateY(90deg);
+}
+
+.top {
+    background-color: #17e8ffc5;
+    box-shadow: #ffcd1b 0px 7px 29px 0px;
+    transform: translateY(-100px) rotateX(90deg);
+}
+
+.bottom {
+    background-color: #17e8ffc5;
+    box-shadow: #ffcd1b 0px 7px 29px 0px;
+    transform: translateY(100px) rotateX(-90deg);
+}
+
+@keyframes cuberotate {
+    100% {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}

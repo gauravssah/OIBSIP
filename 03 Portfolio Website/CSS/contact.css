@@ -1,0 +1,72 @@
+.contactussection {
+    /* padding: 1rem 3rem; */
+    height: 100vh;
+    width: 90%;
+}
+
+.contactusbox {
+    margin-left: 2rem;
+}
+
+.contactus .contact {
+    margin-left: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    width: 44%;
+}
+
+.contactform label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.contactform input {
+    margin-bottom: 0.5rem;
+    color: black;
+    padding: 0.5rem;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.contactform textarea {
+    resize: none;
+    outline: none;
+    border-radius: 5px;
+    color: black;
+    padding: 0.5rem;
+}
+
+.contactform .submitbtn {
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.contactform .submitbtn:hover {
+    background: #ffcd1b;
+    /* background: #7ed6df; */
+    box-shadow: #f9ca24 0px 5px 15px;
+}
+
+.contact .mapbox {
+    /* margin: 1rem 4rem;
+    border-radius: 4px;
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px; */
+
+}
+
+.contact .mapbox iframe {
+    margin: 1rem 4rem;
+    border-radius: 4px;
+    box-shadow: rgba(255, 255, 255, 0.351) 0px 3px 8px;
+
+}
