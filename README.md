@@ -11,7 +11,7 @@ This project marks the beginning of my internship journey at Oasis Infobyte. The
 - Attention to detail for layout, colors, and alignment
 
 ### Live Link
-[View Landing Page](#insert-live-landing-page-link)
+[View Landing Page](https://greenera-landingpage.netlify.app/)
 
 ### Project Structure
 - `index.html`: Main HTML file
@@ -28,7 +28,7 @@ The Temperature Converter project allowed me to apply JavaScript concepts in a r
 - Integration of HTML, CSS, and JavaScript
 
 ### Live Link
-[Try Temperature Converter](#insert-live-temperature-converter-link)
+[Try Temperature Converter](https://temperature-converter-page.netlify.app/)
 
 ### Project Structure
 - `index.html`: HTML structure
@@ -46,7 +46,7 @@ The Frontend Developer Portfolio is the culmination of my internship, showcasing
 - Integration of multiple frontend technologies
 
 ### Live Link
-[Explore My Portfolio](#insert-live-portfolio-link)
+[Explore My Portfolio](https://gauravssahportfolio.netlify.app/)
 
 ### Project Structure
 - `index.html`: Main portfolio HTML file
